@@ -99,6 +99,61 @@ nav ul li a:hover {
   z-index: 10;
 }
 
+.carousel-gallery {
+  height: 50vh;
+}
+
+.carousel-item img {
+  height: 50vh;
+  width: 100%;
+}
+.carousel-item .carousel-caption {
+  color: black;
+  top: -25%;
+}
+.carousel-item .carousel-caption img {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border: 3px solid orangered;
+}
+.carousel-item .carousel-caption h2 {
+  display: inline-flex;
+  justify-content: center;
+  padding: 4px;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: 51%;
+  left: -51%;
+}
+.carousel-item .carousel-caption h2 i {
+  font-size: 20px;
+}
+.carousel-item .carousel-caption p {
+  line-height: 30px;
+  margin-top: 20px;
+}
+.carousel-item .carousel-caption h3 {
+  text-shadow: 1px 1px 1px brown;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 60px !important;
+  height: 60px !important;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 80% !important;
+}
+
+.carousel-control-prev {
+  left: 80% !important;
+}
+
+.carousel-control-next {
+  right: 10% !important;
+}
+
 .footer {
   color: white;
   background-color: #14161a;
@@ -110,6 +165,9 @@ nav ul li a:hover {
 }
 .footer > div p:first-child {
   text-shadow: 1px 1px 1px brown;
+}
+.footer .card-logos {
+  font-size: 3rem;
 }
 
 .end-footer {
@@ -127,9 +185,18 @@ nav ul li a:hover {
     left: 0;
   }
 }
+@media (min-width: 768px) {
+  .carousel-control-prev {
+    left: 75% !important;
+  }
+}
 @media (min-width: 996px) {
   .header {
     font-size: 4.5rem !important;
+  }
+
+  .carousel-control-prev {
+    left: 75% !important;
   }
 }
 
