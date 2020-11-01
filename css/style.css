@@ -30,10 +30,14 @@ nav ul li a:hover {
   color: #333232;
 }
 
-.destiney, .how-its-work-box, .contact-page {
+.contact-page,
+.destiney,
+.how-its-work-box {
   margin: 0 10% !important;
 }
-.destiney h1, .how-its-work-box h1, .contact-page h1 {
+.contact-page h1,
+.destiney h1,
+.how-its-work-box h1 {
   text-shadow: 1px 1px 1px brown;
 }
 
@@ -93,6 +97,24 @@ nav ul li a:hover {
   position: relative;
   left: 100%;
   z-index: 10;
+}
+
+.footer {
+  color: white;
+  background-color: #14161a;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='258' height='258' viewBox='0 0 200 200'%3E%3Cpolygon fill='%2334383b' fill-opacity='0.17' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+.footer > div {
+  padding: 20vh 0;
+  margin: 0 10% !important;
+}
+.footer > div p:first-child {
+  text-shadow: 1px 1px 1px brown;
+}
+
+.end-footer {
+  background-color: #14161a;
+  padding: 0 5%;
 }
 
 @media (min-width: 768px) {
