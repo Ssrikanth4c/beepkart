@@ -43,6 +43,10 @@ nav ul li a:hover {
   text-shadow: 1px 1px 1px brown;
 }
 
+.destiney p {
+  line-height: 1.6em;
+}
+
 .automated-shipping {
   margin: 0 10% !important;
 }
@@ -87,9 +91,6 @@ nav ul li a:hover {
   font-weight: 900;
 }
 
-.contact-page {
-  padding: 0 10px;
-}
 .contact-page .flat-earth {
   height: 50vh;
   width: 100%;
@@ -100,7 +101,6 @@ nav ul li a:hover {
 }
 .contact-page h1 {
   position: relative;
-  left: 100% !important;
   z-index: 10;
 }
 
@@ -177,11 +177,6 @@ nav ul li a:hover {
   padding: 0 5%;
 }
 
-@media (min-width: 377px) {
-  .contact-page h1 {
-    left: 0 !important;
-  }
-}
 @media (min-width: 768px) {
   .header {
     font-size: 50px !important;
@@ -189,6 +184,10 @@ nav ul li a:hover {
 
   .carousel-control-prev {
     left: 75% !important;
+  }
+
+  .contact-page h1 {
+    left: 0;
   }
 }
 @media (min-width: 996px) {
@@ -198,6 +197,10 @@ nav ul li a:hover {
 
   .carousel-control-prev {
     left: 75% !important;
+  }
+
+  .contact-page h1 {
+    left: 100%;
   }
 }
 
