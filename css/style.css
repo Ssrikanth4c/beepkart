@@ -11,6 +11,9 @@ nav {
 nav ul li a:hover {
   color: red !important;
 }
+nav .active a {
+  color: red !important;
+}
 
 .track-product {
   position: relative;
@@ -65,7 +68,7 @@ nav ul li a:hover {
 }
 
 .how-its-work-box img {
-  width: 100%;
+  width: 200px;
   height: 250px;
 }
 .how-its-work-box .stage > div {
@@ -146,14 +149,18 @@ nav ul li a:hover {
 }
 
 .carousel-control-prev, .carousel-control-next {
-  width: 60px !important;
-  height: 60px !important;
-  background-color: rgba(0, 0, 0, 0.6);
+  width: 50px !important;
+  height: 50px;
   top: 80% !important;
+  background-color: #000000;
 }
 
 .carousel-control-next {
   right: 10% !important;
+}
+
+.carousel-control-prev {
+  left: 65% !important;
 }
 
 .footer {
@@ -183,7 +190,11 @@ nav ul li a:hover {
   }
 
   .carousel-control-prev {
-    left: 75% !important;
+    left: 80% !important;
+  }
+
+  .carousel-control-next {
+    right: 8% !important;
   }
 
   .contact-page h1 {
@@ -195,8 +206,12 @@ nav ul li a:hover {
     font-size: 4.5rem !important;
   }
 
+  carousel-control-next {
+    right: 10% !important;
+  }
+
   .carousel-control-prev {
-    left: 75% !important;
+    left: 86% !important;
   }
 
   .contact-page h1 {

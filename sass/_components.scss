@@ -32,7 +32,7 @@
 }
 .how-its-work-box {
     img {
-        width: 100%;
+        width: 200px;
         height: 250px;
     }
     .stage {
@@ -120,16 +120,17 @@
 }
 
 .carousel-control-prev, .carousel-control-next{
-    width: 60px !important;
-    height: 60px !important;
-   background-color: rgba($color: #000000, $alpha: .6);
-   top: 80% !important;
-   
+    width: 50px !important;
+    height: 50px;
+    top:80% !important;
+    background-color: #000000;
+    
 }
-
 .carousel-control-next{
     right: 10% !important;
-
+}
+.carousel-control-prev{
+    left: 65% !important;
 }
 .footer {
     color: white;
@@ -159,8 +160,11 @@
         font-size: 50px !important;
     }
     .carousel-control-prev{
-        left: 75% !important;
-    }  
+        left: 80% !important;
+    }
+    .carousel-control-next{
+        right: 8% !important;
+    }
     .contact-page {
         h1 {
             left: 0;
@@ -171,9 +175,12 @@
     .header {
         font-size: 4.5rem !important;
     }
+    carousel-control-next{
+        right: 10% !important;
+    }
     .carousel-control-prev{
-        left: 75% !important;
-    }    
+        left: 86% !important;
+    }   
     .contact-page{
         h1{
             left: 100%;
