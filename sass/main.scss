@@ -1,8 +1,9 @@
 @import 'variables';
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Overpass&display=swap');
 body{
     margin: 0;
     padding: 0;
+    font-family: $kumbhFont;
 }
 nav{
     background-color: #f2f2f2 !important;
@@ -17,8 +18,18 @@ nav{
 .track-product{
     position: relative;
     top:20%;
+    font-family: $kumbhFont;
+    button, input{
+
+        font-size: $fontSize;
+    }
 }
 #home{
-    background: linear-gradient($light_grey, $grey)
+    background: linear-gradient($light_grey, $grey);
+    position: relative;
 }
+.header{
+    color: $headerColor ;
+}
+
 @import 'components';

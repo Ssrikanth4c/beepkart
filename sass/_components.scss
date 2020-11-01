@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixin';
+
+.destiney{
+    @include my-container;
+    h1{
+        text-shadow: 1px 1px 1px $brown;
+    }
+}
+
+.automated-shipping{
+    @include my-container;
+    ul{
+        line-height: 3rem;
+    }
+}
+.destiney-surface{
+    background-color: $surface;
+    .row{
+        @include my-container;
+    }
+}
+
+@media(min-width:768px){
+    .header{
+        font-size: 50px !important;
+    }
+}
+@media(min-width:996px){
+    .header{
+        font-size: 4.5rem !important;
+    }
+}
